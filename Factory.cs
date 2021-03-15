@@ -11,5 +11,11 @@ namespace UPLab1
         string Name { get; set; }
         string Adress { get; set; }
         int Year { get; set; }
+        public Factory(string Name,string Adress,int Year)
+        {
+            this.Name = Name;
+            this.Adress = Adress;
+            this.Year = Year;
+        }
     }
 }
